@@ -27,7 +27,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           QQX <i class="fa-solid fa-dungeon"></i>
         </Link>
         <div className="menu-icon" onClick={handleClick}>
